@@ -68,6 +68,7 @@
 - 路由遵循Restful风格
 - 定制转换器，实现路由匹配参数支持正则
 - sqlalchemy实现orm
+- logging实现log日志记录功能
 - 改变默认session存储，令其存入redis中
 - redis
     - redis(7):用于验证码的存储；记录第一次获取验证码的时间；登录session存储；登录验证次数；房区信息的缓存;房屋列表页信息缓存（hash）；拒单原因及评论信息的缓存。
