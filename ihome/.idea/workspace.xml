@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="258baadd-2cf0-4dee-b770-3b131129ded5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +25,7 @@
     <favorites_list name="ihome" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,7 +111,6 @@
         <option value="$PROJECT_DIR$/ihome/static/js/ihome/booking.js" />
         <option value="$PROJECT_DIR$/ihome/static/js/ihome/orders.js" />
         <option value="$PROJECT_DIR$/ihome/static/js/ihome/lorders.js" />
-        <option value="$PROJECT_DIR$/logs/log" />
         <option value="$PROJECT_DIR$/ihome/static/html/orders.html" />
         <option value="$PROJECT_DIR$/ihome/static/html/lorders.html" />
         <option value="$PROJECT_DIR$/ihome/api_1_0/houses.py" />
@@ -124,14 +124,15 @@
         <option value="$PROJECT_DIR$/ihome/web_html.py" />
         <option value="$PROJECT_DIR$/ihome/api_1_0/passport.py" />
         <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/logs/log" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4036" />
-    <option name="y" value="135" />
-    <option name="width" value="1777" />
-    <option name="height" value="1095" />
+    <option name="x" value="-994" />
+    <option name="y" value="106" />
+    <option name="width" value="3866" />
+    <option name="height" value="2186" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -139,6 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,7 +152,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,12 +336,13 @@
       <workItem from="1574572085975" duration="5243000" />
       <workItem from="1574577429704" duration="19157000" />
       <workItem from="1574601776630" duration="2600000" />
-      <workItem from="1574609399356" duration="288000" />
+      <workItem from="1574609399356" duration="566000" />
+      <workItem from="1574615370165" duration="112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257926000" />
+    <option name="totallyTimeSpent" value="258316000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -352,9 +354,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4036" y="135" width="1777" height="1095" extended-state="0" />
+    <frame x="-497" y="53" width="1933" height="1093" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49827388" visible="true" weight="0.16889924" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49827388" visible="true" weight="0.15626666" />
       <window_info id="Structure" order="1" sideWeight="0.5010707" side_tool="true" weight="0.14144737" />
       <window_info id="Favorites" order="2" sideWeight="0.50172615" side_tool="true" weight="0.2003621" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -368,7 +370,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.37773153" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3773389" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32911393" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -597,13 +599,6 @@
     <entry file="file://$PROJECT_DIR$/ihome/static/favicon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
@@ -750,6 +745,13 @@
           <folding>
             <element signature="e#16#69#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="2820" column="28" lean-forward="true" selection-start-line="2820" selection-start-column="28" selection-end-line="2820" selection-end-column="28" />
         </state>
       </provider>
     </entry>

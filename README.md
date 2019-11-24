@@ -98,7 +98,6 @@
 ![image](https://github.com/luola63702168/ihome/blob/master/obj_images/house.png)
 ![image](https://github.com/luola63702168/ihome/blob/master/obj_images/myhouse.png)
 ![image](https://github.com/luola63702168/ihome/blob/master/obj_images/personal.png)
-![image](https://github.com/luola63702168/ihome/blob/master/obj_images/search.png)
 ![image](https://github.com/luola63702168/ihome/blob/master/obj_images/Realname.png)
 ![image](https://github.com/luola63702168/ihome/blob/master/obj_images/createnewhouse.png)
 ![image](https://github.com/luola63702168/ihome/blob/master/obj_images/order.png)
