@@ -1,11 +1,11 @@
 //模态框居中的控制
 function centerModals(){
-    $('.modal').each(function(i){   //遍历每一个模态框
+    $('.modal').each(function(i){
         var $clone = $(this).clone().css('display', 'block').appendTo('body');    
         var top = Math.round(($clone.height() - $clone.find('.modal-content').height()) / 2);
         top = top > 0 ? top : 0;
         $clone.remove();
-        $(this).find('.modal-content').css("margin-top", top-30);  //修正原先已经有的30个像素
+        $(this).find('.modal-content').css("margin-top", top-30);
     });
 }
 
@@ -15,7 +15,7 @@ function getCookie(name) {
 }
 
 $(document).ready(function(){
-    $('.modal').on('show.bs.modal', centerModals);      //当模态框出现的时候
+    $('.modal').on('show.bs.modal', centerModals);
     $(window).on('resize', centerModals);
     // 查询房东的订单
     $.get("/api/v1.0/user/orders?role=landlord", function(resp){

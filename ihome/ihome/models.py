@@ -1,15 +1,16 @@
 # -*- coding:utf-8 -*-
 
 from datetime import datetime
-from ihome import db,constants
-from werkzeug.security import generate_password_hash,check_password_hash
+from werkzeug.security import generate_password_hash, check_password_hash
+
+from ihome import db, constants
 
 
 class BaseModel(object):
-    """模型基类，为每个模型补充创建时间与更新时间"""
+    """模型基类"""
 
-    create_time = db.Column(db.DateTime, default=datetime.now)  # 记录的创建时间
-    update_time = db.Column(db.DateTime, default=datetime.now, onupdate=datetime.now)  # 记录的更新时间 onupdate
+    create_time = db.Column(db.DateTime, default=datetime.now)
+    update_time = db.Column(db.DateTime, default=datetime.now, onupdate=datetime.now)
 
 
 class User(BaseModel, db.Model):
@@ -17,35 +18,32 @@ class User(BaseModel, db.Model):
 
     __tablename__ = "ih_user_profile"
 
-    id = db.Column(db.Integer, primary_key=True)  # 用户编号
-    name = db.Column(db.String(32), unique=True, nullable=False)  # 用户暱称
-    password_hash = db.Column(db.String(128), nullable=False)  # 加密的密码
-    mobile = db.Column(db.String(11), unique=True, nullable=False)  # 手机号
-    real_name = db.Column(db.String(32))  # 真实姓名
-    id_card = db.Column(db.String(20))  # 身份证号
-    avatar_url = db.Column(db.String(128))  # 用户头像路径
-    houses = db.relationship("House", backref="user")  # 用户发布的房屋
-    orders = db.relationship("Order", backref="user")  # 用户下的订单
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(32), unique=True, nullable=False)
+    password_hash = db.Column(db.String(128), nullable=False)
+    mobile = db.Column(db.String(11), unique=True, nullable=False)
+    real_name = db.Column(db.String(32))
+    id_card = db.Column(db.String(20))
+    avatar_url = db.Column(db.String(128))
+    houses = db.relationship("House", backref="user")
+    orders = db.relationship("Order", backref="user")
 
     @property
     def password(self):
         raise AttributeError("此属性只能设置，不可读取")
 
     @password.setter
-    def password(self,value):
+    def password(self, value):
         self.password_hash = generate_password_hash(value)
 
-    # def generate_password_hash(self,origin_password):
-    #     '''对密码进行加密'''
-    #     self.password_hash = generate_password_hash(origin_password)
 
-    def check_passed(self,passwd):
+    def check_passed(self, passwd):
         """
         检验密码正确性
         :param passwd: 用户登录时填写的原始密码
         :return:如果正确返回True，否则返回False
         """
-        return check_password_hash(self.password_hash,passwd)
+        return check_password_hash(self.password_hash, passwd)
 
     def to_dict(self):
         """将对象转换为字典数据"""
@@ -67,15 +65,15 @@ class User(BaseModel, db.Model):
         }
         return auth_dict
 
+
 class Area(BaseModel, db.Model):
     """城区"""
 
     __tablename__ = "ih_area_info"
 
-    id = db.Column(db.Integer, primary_key=True)  # 区域编号
-    name = db.Column(db.String(32), nullable=False)  # 区域名字
-    houses = db.relationship("House", backref="area")  # 区域的房屋
-
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(32), nullable=False)
+    houses = db.relationship("House", backref="area")
 
     def to_dict(self):
         '''将对象转化为字典'''
@@ -86,14 +84,10 @@ class Area(BaseModel, db.Model):
         return d
 
 
-
-
-# 房屋设施表，建立房屋与设施的多对多关系（通过SQLAlchemy最底层的方式创建表）
 house_facility = db.Table(
     "ih_house_facility",
-    db.Column("house_id", db.Integer, db.ForeignKey("ih_house_info.id"), primary_key=True),  # 房屋编号
-    db.Column("facility_id", db.Integer, db.ForeignKey("ih_facility_info.id"), primary_key=True)  # 设施编号
-    # 联合主键，两个键确定唯一的一条数据
+    db.Column("house_id", db.Integer, db.ForeignKey("ih_house_info.id"), primary_key=True),
+    db.Column("facility_id", db.Integer, db.ForeignKey("ih_facility_info.id"), primary_key=True)
 )
 
 
@@ -172,7 +166,6 @@ class House(BaseModel, db.Model):
 
         # 评论信息
         comments = []
-        # 不通过关系属性去查询（self.orders）,因为这样取出来的是所有的数据，不能反映出订单的状态
         orders = Order.query.filter(Order.house_id == self.id, Order.status == "COMPLETE", Order.comment != None) \
             .order_by(Order.update_time.desc()).limit(constants.HOUSE_DETAIL_COMMENT_DISPLAY_COUNTS)
         for order in orders:

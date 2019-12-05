@@ -2818,4 +2818,4 @@ INFO _internal.py:122 127.0.0.1 - - [24/Aug/2019 21:21:17] "GET /api/v1.0/sessio
 INFO houses.py:237 hit house index info redis
 INFO _internal.py:122 127.0.0.1 - - [24/Aug/2019 21:21:17] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
 INFO _internal.py:122 127.0.0.1 - - [24/Aug/2019 21:21:17] "GET /api/v1.0/areas HTTP/1.1" 200 -
-INFO _internal.py:122 127.0.0.1 - - [24/Aug/2019 21:21:17] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [24/Aug/2019 21:21:17] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -INFO _internal.py:122  * Restarting with stat

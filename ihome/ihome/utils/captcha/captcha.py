@@ -7,7 +7,7 @@ import random
 import string
 import os.path
 # from cStringIO import StringIO
-from io import StringIO,BytesIO
+from io import StringIO, BytesIO
 from PIL import Image
 from PIL import ImageFilter
 from PIL.ImageDraw import Draw
@@ -216,6 +216,7 @@ class Captcha(object):
     def generate_captcha(self):
         self.initialize()
         return self.captcha("")
+
 
 # 用这个方法创建对象，单例
 captcha = Captcha.instance()
