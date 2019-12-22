@@ -12,7 +12,7 @@ class Config(object):
     # redis
     REDIS_HOST = "127.0.0.1"
     REDIS_PORT = 6379
-    DB = 7  # 存储验证码记录,session
+    DB = 7  
 
     # flask-session配置
     SESSION_TYPE = "redis"
