@@ -35,3 +35,4 @@ config_map = {
     "develop": DevelopmentConfig,
     "product": ProductionConfig
 }
+
