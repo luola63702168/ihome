@@ -243,3 +243,4 @@ class Order(BaseModel, db.Model):
             "comment": self.comment if self.comment else ""
         }
         return order_dict
+
