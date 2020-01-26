@@ -347,4 +347,3 @@ def get_house_list():
         except Exception as e:
             current_app.logger.error(e)
     return resp_json, 200, {"Content-Type": "application/json"}
-
