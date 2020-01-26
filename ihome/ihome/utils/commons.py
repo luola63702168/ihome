@@ -27,3 +27,4 @@ def login_required(view_func):
             return jsonify(errno=RET.SESSIONERR, errmsg="用户未登录")
 
     return wrapper
+
