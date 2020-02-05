@@ -3,38 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="258baadd-2cf0-4dee-b770-3b131129ded5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/api_1_0/houses.py" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/api_1_0/houses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/api_1_0/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/api_1_0/orders.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/api_1_0/passport.py" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/api_1_0/passport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/api_1_0/pay.py" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/api_1_0/pay.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/api_1_0/profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/api_1_0/profile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/api_1_0/verify_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/api_1_0/verify_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/static/js/ihome/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/static/js/ihome/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/static/js/ihome/booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/static/js/ihome/booking.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/static/js/ihome/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/static/js/ihome/detail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/static/js/ihome/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/static/js/ihome/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/static/js/ihome/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/static/js/ihome/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/static/js/ihome/lorders.js" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/static/js/ihome/lorders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/static/js/ihome/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/static/js/ihome/my.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/static/js/ihome/myhouse.js" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/static/js/ihome/myhouse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/static/js/ihome/newhouse.js" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/static/js/ihome/newhouse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/static/js/ihome/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/static/js/ihome/orders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/static/js/ihome/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/static/js/ihome/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/static/js/ihome/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/static/js/ihome/register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/static/js/ihome/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/static/js/ihome/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/tasks/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/tasks/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/tasks/sms/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/tasks/sms/tasks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/tasks/task_sms.py" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/tasks/task_sms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/utils/captcha/captcha.py" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/utils/captcha/captcha.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/utils/commons.py" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/utils/commons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/utils/image_storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/utils/image_storage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/web_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/web_html.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihome/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/__init__.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,9 +22,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="ihome" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,90 +70,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/ihome/libs/yuntongxun/__init__.py" />
-        <option value="$PROJECT_DIR$/ihome/libs/yuntongxun/SendTemplateSMS.py" />
-        <option value="$PROJECT_DIR$/ihome/libs/yuntongxun/CCPRestSDK.py" />
-        <option value="$PROJECT_DIR$/ihome/libs/yuntongxun/sms.py" />
-        <option value="$PROJECT_DIR$/ihome/static/html/profile.html" />
-        <option value="$PROJECT_DIR$/ihome/static/html/auth.html" />
-        <option value="$PROJECT_DIR$/ihome/__init__.py" />
-        <option value="$PROJECT_DIR$/ihome/static/html/newhouse.html" />
-        <option value="$PROJECT_DIR$/ihome/tasks/config.py" />
-        <option value="$PROJECT_DIR$/ihome/static/html/myhouse.html" />
-        <option value="$PROJECT_DIR$/ihome/static/html/index.html" />
-        <option value="$PROJECT_DIR$/ihome/static/html/detail.html" />
-        <option value="$PROJECT_DIR$/ihome/static/html/search.html" />
-        <option value="$PROJECT_DIR$/ihome/static/html/booking.html" />
-        <option value="$PROJECT_DIR$/ihome/static/html/orders.html" />
-        <option value="$PROJECT_DIR$/ihome/static/html/lorders.html" />
-        <option value="$PROJECT_DIR$/manage_single.py" />
-        <option value="$PROJECT_DIR$/ihome/api_1_0/__init__.py" />
-        <option value="$PROJECT_DIR$/ihome/constants.py" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/ihome/api_1_0/houses.py" />
-        <option value="$PROJECT_DIR$/ihome/api_1_0/orders.py" />
-        <option value="$PROJECT_DIR$/ihome/api_1_0/passport.py" />
-        <option value="$PROJECT_DIR$/ihome/api_1_0/pay.py" />
-        <option value="$PROJECT_DIR$/ihome/api_1_0/profile.py" />
-        <option value="$PROJECT_DIR$/ihome/api_1_0/verify_code.py" />
-        <option value="$PROJECT_DIR$/ihome/tasks/main.py" />
-        <option value="$PROJECT_DIR$/ihome/tasks/sms/tasks.py" />
-        <option value="$PROJECT_DIR$/ihome/tasks/task_sms.py" />
-        <option value="$PROJECT_DIR$/ihome/utils/captcha/captcha.py" />
-        <option value="$PROJECT_DIR$/ihome/utils/image_storage.py" />
-        <option value="$PROJECT_DIR$/ihome/models.py" />
-        <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/logs/log" />
-        <option value="$PROJECT_DIR$/ihome/utils/commons.py" />
-        <option value="$PROJECT_DIR$/ihome/static/js/ihome/detail.js" />
-        <option value="$PROJECT_DIR$/ihome/static/js/ihome/auth.js" />
-        <option value="$PROJECT_DIR$/ihome/static/js/ihome/booking.js" />
-        <option value="$PROJECT_DIR$/ihome/web_html.py" />
-        <option value="$PROJECT_DIR$/ihome/static/js/ihome/login.js" />
-        <option value="$PROJECT_DIR$/ihome/static/js/ihome/index.js" />
-        <option value="$PROJECT_DIR$/ihome/static/js/ihome/lorders.js" />
-        <option value="$PROJECT_DIR$/ihome/static/js/ihome/my.js" />
-        <option value="$PROJECT_DIR$/ihome/static/js/ihome/myhouse.js" />
-        <option value="$PROJECT_DIR$/ihome/static/js/ihome/newhouse.js" />
-        <option value="$PROJECT_DIR$/ihome/static/js/ihome/orders.js" />
-        <option value="$PROJECT_DIR$/ihome/static/js/ihome/profile.js" />
-        <option value="$PROJECT_DIR$/ihome/static/js/ihome/register.js" />
-        <option value="$PROJECT_DIR$/ihome/static/js/ihome/search.js" />
-        <option value="$PROJECT_DIR$/manage.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-572" />
-    <option name="y" value="224" />
-    <option name="width" value="7732" />
-    <option name="height" value="4372" />
-  </component>
+  <component name="ProjectId" id="1XNkxpXRDIlKeLWhlbHR0kMfYxw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ihome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ihome" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Django_project/MxOnline" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -201,18 +93,6 @@
       <recent name="E:\py3rizhi\Flask_project\ihome\ihome\libs\yuntongxun" />
       <recent name="E:\py3rizhi\Flask_project\ihome\ihome\libs" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.manage_single">
     <configuration name="SendTemplateSMS" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -335,6 +215,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -372,11 +264,9 @@
       <workItem from="1574615370165" duration="112000" />
       <workItem from="1575521589600" duration="240000" />
       <workItem from="1575521860475" duration="3315000" />
+      <workItem from="1580894190804" duration="43000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261871000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -387,372 +277,7 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-286" y="112" width="3866" height="2186" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49827388" visible="true" weight="0.0782563" />
-      <window_info id="Structure" order="1" sideWeight="0.5010707" side_tool="true" weight="0.14144737" />
-      <window_info id="Favorites" order="2" sideWeight="0.50172615" side_tool="true" weight="0.2003621" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3035117" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3998477" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3272543" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.17664233" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32911393" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.3298872" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://E:/py3/py_virtual/flask/Lib/site-packages/sqlalchemy/orm/query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-249">
-          <caret line="1673" column="8" selection-start-line="1673" selection-start-column="8" selection-end-line="1673" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/static/html/orders.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/static/html/lorders.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="107" column="18" lean-forward="true" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage_single.py" />
-    <entry file="file://$PROJECT_DIR$/ihome/static/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://E:/py3/py_virtual/flask/Lib/site-packages/alipay/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9091">
-          <caret line="186" column="8" selection-start-line="186" selection-start-column="8" selection-end-line="186" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/static/html/payComplete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/api_1_0/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/api_1_0/demo.py" />
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/README" />
-    <entry file="file://$PROJECT_DIR$/ihome/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="54" column="11" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="11" />
-          <folding>
-            <element signature="e#16#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/api_1_0/pay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/libs/yuntongxun/CCPRestSDK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/libs/yuntongxun/sms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-885">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/libs/yuntongxun/接口说明.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1326" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/tasks/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/tasks/sms/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/utils/captcha/captcha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/utils/response_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-287" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5383">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="e#24#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/static/html/booking.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="54" column="7" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/static/html/auth.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-911" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/api_1_0/verify_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="881">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-          <folding>
-            <element signature="e#16#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/utils/commons.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="e#16#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/tasks/task_sms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/api_1_0/houses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8061" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/api_1_0/orders.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4368">
-          <caret line="168" selection-start-line="168" selection-end-line="168" />
-          <folding>
-            <element signature="e#17#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/api_1_0/passport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/utils/image_storage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/api_1_0/profile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-910">
-          <caret line="4" column="59" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/static/js/ihome/detail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/static/js/ihome/auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/web_html.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/static/js/ihome/booking.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/static/js/ihome/login.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/static/js/ihome/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2470">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/static/js/ihome/lorders.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1015">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/static/js/ihome/my.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/static/js/ihome/myhouse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/static/js/ihome/newhouse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/static/js/ihome/orders.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/static/js/ihome/profile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/static/js/ihome/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/static/js/ihome/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="139" column="7" lean-forward="true" selection-start-line="139" selection-start-column="7" selection-end-line="139" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/tasks/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ihome/tasks/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="2802" column="21" lean-forward="true" selection-start-line="2802" selection-start-column="21" selection-end-line="2802" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding>
-            <element signature="e#17#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
